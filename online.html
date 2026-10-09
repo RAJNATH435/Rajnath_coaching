@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Baksh Singh | Coaching Classes</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #1e293b;
+        }
+
+        header {
+            background: #12346b;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        header h2 {
+            color: #facc15;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        .hero {
+            background: linear-gradient(120deg, #12346b, #2563eb);
+            color: white;
+            text-align: center;
+            padding: 85px 20px;
+        }
+
+        .hero h1 {
+ font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #facc15;
+            color: #12346b;
+            padding: 13px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 7px;
+            border: none;
+            cursor: pointer;
+        }
+
+        section {
+            padding: 55px 8%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 25px;
+            color: #12346b;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px #00000010;
+        }
+
+        .card h3 {
+            color: #2563eb;
+            margin-bottom: 12px;
+        }
+     }
+
+        .card p {
+            line-height: 1.6;
+        }
+
+        .about {
+            background: white;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.8;
+        }
+
+        .contact {
+            background: #e8f0ff;
+        }
+
+        .contact p {
+            margin: 12px 0;
+        }
+
+        footer {
+            background: #12346b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 750px) {
+            header {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px;
+                display: inline-block;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 420px) {
+            .cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+     
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Rajnath singh</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#classes">Classes</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <h1>Build Your Bright Future!</h1>
+
+        <p>Quality Coaching for Classes 9th, 10th, 11th & 12th</p>
+
+        <p>Mathematics & Physics | Personal Guidance</p>
+
+        <a href="#contact" class="btn">Enquire Now</a>
+    </div>
+
+    <section id="classes">
+        <h2>Our Classes</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Class 9th</h3>
+                <p>Mathematics & Science</p>
+            </div>
+
+            <div class="card">
+                <h3>Class 10th</h3>
+                <p>Mathematics & Science</p>
+            </div>
+
+            <div class="card">
+                <h3>Class 11th</h3>
+                <p>Mathematics & Physics</p>
+            </div>
+
+            <div class="card">
+                <h3>Class 12th</h3>
+                <p>Mathematics & Physics</p>
+            </div>
+        </div>
+</section>
+
+    <section class="about" id="about">
+        <h2>About Your Teacher</h2>
+
+        <p>
+            Hello! I am Rajnath singh, a B.Tech student
+            at PW Institute of Innovation, Lucknow.
+            I aim to help students understand concepts
+            clearly and build strong academic foundations.
+            My focus is on Mathematics and Physics.
+        </p>
+    </section>
+
+    <section>
+        <h2>Why Choose Our Classes?</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Concept Clarity</h3>
+                <p>Learn concepts step by step.</p>
+            </div>
+
+            <div class="card">
+                <h3>Practice</h3>
+                <p>Regular questions and revision.</p>
+            </div>
+
+            <div class="card">
+                <h3>Doubt Support</h3>
+                <p>Ask questions and improve understanding.</p>
+            </div>
+
+            <div class="card">
+                <h3>Personal Guidance</h3>
+                <p>Guidance according to learning needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Join Our Classes</h2>
+
+        <p>For admission enquiries, contact us.</p>
+
+        <p><strong>Teacher:</strong> Raj Baksh Singh math,</p><p>Rajnath singh chemistry,</p><p>Lokesh Singh physics</p>
+
+        <p><strong>Subjects:</strong> Mathematics & Physics ,Chemistry</p>
+
+  <p><strong>Location:</strong> Lucknow, Uttar Pradesh</p>
+
+        <!-- Apna WhatsApp number yahan add karein -->
+        <a class="btn"
+           href="https://wa.me/917007358265"
+           target="_blank">
+           Contact on WhatsApp
+        </a>
+    </section>
+
+    <footer>
+        <p>©️ 2026 Raj nath singh Lokesh Raj Baksh Singh Coaching Classes</p>
+        <p>Learn Today, Succeed Tomorrow! phone no:+917007358265</p>
+    </footer>
+
+</body>
+</html>
